@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d8fb43054cc47fed",
+        "id": "5504e84349f2cc43",
         "type": "tabs",
         "children": [
           {
-            "id": "b258dffc1ac5fad6",
+            "id": "e6610f5a4eca83fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Pod.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Pod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "Pod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "Pod.md"
               }
             }
           }
@@ -146,9 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b258dffc1ac5fad6",
+  "active": "e6610f5a4eca83fa",
   "lastOpenFiles": [
-    "create a link.md",
-    "Welcome.md"
+    "Node.md",
+    "Kubernetes.md",
+    "control plane.md",
+    "Cluster.md",
+    "Pod.md",
+    "API server.md",
+    "create a link.md"
   ]
 }
