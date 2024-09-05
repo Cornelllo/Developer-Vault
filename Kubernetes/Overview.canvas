@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"3ee3ae7a01dbdf77","type":"file","file":"Kubernetes/control lane AKA master node.md","x":-1160,"y":-80,"width":1020,"height":1360},
+		{"id":"97cc1fbb7a8d6aa2","type":"file","file":"Kubernetes/Cluster.md","x":-1160,"y":-880,"width":500,"height":580},
+		{"id":"90da95531e9de528","type":"file","file":"Kubernetes/Node.md","x":-120,"y":-910,"width":760,"height":590}
+	],
+	"edges":[
+		{"id":"9dac773a36581e48","fromNode":"97cc1fbb7a8d6aa2","fromSide":"right","toNode":"90da95531e9de528","toSide":"left","label":"is made up of nodes or node pool"},
+		{"id":"8c436b105d254693","fromNode":"3ee3ae7a01dbdf77","fromSide":"top","toNode":"97cc1fbb7a8d6aa2","toSide":"bottom","label":"orchestrates the entire Kubernetes cluster."}
+	]
+}

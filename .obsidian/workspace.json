@@ -4,22 +4,98 @@
     "type": "split",
     "children": [
       {
-        "id": "5504e84349f2cc43",
+        "id": "4e23102655ab8cc1",
         "type": "tabs",
         "children": [
           {
-            "id": "e6610f5a4eca83fa",
+            "id": "fdccab07e858d7b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pod.md",
+                "file": "Kubernetes/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecfe2061b88eec44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C or C++ resources.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a975e3e85023229f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c89303facc59c2cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e351a026f87a00f2",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Kubernetes/Overview.canvas",
+                "viewState": {
+                  "x": 537.3366062412645,
+                  "y": 343.6564922882673,
+                  "zoom": 0.5949696819820334
+                }
+              }
+            }
+          },
+          {
+            "id": "4fca8676decde82d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java resources.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3087eb51538a366",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Oracle 21c.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -38,7 +114,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -69,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 244.5
   },
   "right": {
     "id": "c612e54c3bc5e3e5",
@@ -85,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pod.md",
+                "file": "Oracle 21c.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pod.md",
+                "file": "Oracle 21c.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pod.md"
+                "file": "Oracle 21c.md"
               }
             }
           }
@@ -146,14 +222,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6610f5a4eca83fa",
+  "active": "a2b80a075f5d250c",
   "lastOpenFiles": [
-    "Node.md",
-    "Kubernetes.md",
-    "control plane.md",
-    "Cluster.md",
-    "Pod.md",
-    "API server.md",
+    "Memes.md",
+    "Java resources.md",
+    "C or C++ resources.md",
+    "Oracle 21c.md",
+    "Kubernetes/Docker.md",
+    "Kubernetes/Cluster.md",
+    "Kubernetes/API server.md",
+    "Kubernetes/Kubernetes.md",
+    "Kubernetes/Overview.canvas",
+    "Memes",
+    "Kubernetes/Node.md",
+    "Kubernetes",
+    "Kubernetes/control lane AKA master node.md",
+    "Kubernetes/Pod.md",
+    "Canvas",
     "create a link.md"
   ]
 }
