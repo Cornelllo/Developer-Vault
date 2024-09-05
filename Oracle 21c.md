@@ -1,5 +1,5 @@
 How to unlock and change password of a user in windows OS.
-**Open command promt or any terminal and execute:**
+**Open command prompt or any terminal and execute:**
     
     sqlplus / as sysdba
     
@@ -27,3 +27,6 @@ Change password when necessary:
      
     ALTER USER JOHN IDENTIFIED BY "myPassword123";
     
+
+If you encounter problems make sure these services are running:
+![[Pasted image 20240905212912.png]]
