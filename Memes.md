@@ -1,1 +1,0 @@
-tHen fOr whEnCE does whOm thE fUn iS mAdeSt foR iN THe wOrLD?

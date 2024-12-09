@@ -1,3 +1,12 @@
+After installation open the terminal:
+    
+    sqlplus sys@xe as sysdba
+    
+During the installation of Oracle 21c XE, you are asked to set a password for the **`SYS`** and **`SYSTEM`** accounts. Typically, both accounts are set with the same password during installation, but you can specify different passwords for them if you choose.
+
+- **`SYS`**: This account has the highest privileges and is mainly used for database administration and maintenance tasks. It has `SYSDBA` privileges.
+- **`SYSTEM`**: This account has administrative privileges but is primarily used for general administrative tasks, such as managing user accounts and system settings.
+===========================================================
 How to unlock and change password of a user in windows OS.
 **Open command prompt or any terminal and execute:**
     
@@ -19,6 +28,10 @@ This query will show all services registered with the listener, including the de
       
     sqlplus sys@//localhost:1521/xepdb1 as sysdba
     
+**Create an account:** 
+     
+    CREATE USER JOHN ACCOUNT UNLOCK;
+    
 **Unlock the account:** 
      
     ALTER USER JOHN ACCOUNT UNLOCK;
@@ -30,3 +43,11 @@ Change password when necessary:
 
 If you encounter problems make sure these services are running:
 ![[Pasted image 20240905212912.png]]
+=============================
+
+sqlplus sys@//localhost:1521/xepdb1 as sysdba
+sqlplus sys@xepdb1 as sysdba
+
+SELECT USERNAME FROM ALL_USERS;
+SELECT USERNAME FROM DBA_USERS;
+SHOW CON_NAME;
