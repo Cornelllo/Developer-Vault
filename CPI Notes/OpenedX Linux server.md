@@ -74,9 +74,10 @@ You should be able to access the local URLs of the Open edX in your Linux server
 Create a super user admin account and begin creating courses or import one via CLI
 `tutor local do createuser --staff --superuser admin promega@cpi.com.ph`
 
-**View the admin page at**
+View the admin page at
 https://studio.learn.cpi.com.ph/admin/
-![[Pasted image 20241010103522.png]]
+
+![[Pasted image 20241010100853.png]]
 
 **Make a course invitation only so public users are not able to enroll**
 `select the course > go to settings > advance settings > set invitation only to true`
@@ -84,5 +85,16 @@ https://studio.learn.cpi.com.ph/admin/
 **Students register and sign in here:**
 https://learn.cpi.com.ph/
 
-**Course content creators here:**
+**Course content creators here:** (view course as staff)
 https://studio.learn.cpi.com.ph/
+
+**To view OpenEdx config via Tutor**
+`cat "$(tutor config printroot)/config.yml"`
+
+**To edit OpenEdx config via Tutor**
+`vim "$(tutor config printroot)/config.yml"`
+
+**To save config changes run these**
+`tutor config save`
+`tutor local restart`
+

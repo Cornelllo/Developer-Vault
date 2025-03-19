@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fbfab5dcba5d8734",
+        "id": "ddbd3ccfa521fc58",
         "type": "tabs",
         "children": [
           {
-            "id": "27fa603dd221b805",
+            "id": "11ed7298a197eeca",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Ayy lmao.md"
+                "file": "Etc/Quotes and shit.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Ayy lmao"
+              "icon": "lucide-file",
+              "title": "Quotes and shit"
             }
           }
         ]
@@ -38,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -172,9 +175,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27fa603dd221b805",
+  "active": "11ed7298a197eeca",
   "lastOpenFiles": [
-    "Etc/Memes.md",
+    "CPI Notes/OpenedX Linux server.md",
+    "CPI Notes/learning management system.md",
+    "CPI Notes/Email Requests.md",
+    "CPI Notes/forms.ticket@cpi.com.ph.md",
+    "Convert export ppk to OpenSSH.md",
+    "Etc/Quotes and shit.md",
+    "Etc/Some random.md",
+    "Excalidraw/Ayy lmao.md",
     "Etc/Home wifi password globe.md",
     "Etc/Airline Comms.md",
     "Oracle 21c.md",
@@ -188,11 +198,6 @@
     "Kubernetes/API server.md",
     "Kubernetes/Kubernetes.md",
     "Kubernetes/Overview.canvas",
-    "CPI Notes/forms.ticket@cpi.com.ph.md",
-    "CPI Notes/OpenedX Linux server.md",
-    "CPI Notes/learning management system.md",
-    "CPI Notes/Email Requests.md",
-    "Excalidraw/Ayy lmao.md",
     "Excalidraw/Drawing 2024-12-09 13.43.54.excalidraw.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2024-12-09 13.34.01.excalidraw.md",
@@ -208,7 +213,6 @@
     "Etc",
     "Memes",
     "Kubernetes",
-    "Canvas",
-    "create a link.md"
+    "Canvas"
   ]
 }
